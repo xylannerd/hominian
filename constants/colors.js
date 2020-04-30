@@ -1,0 +1,15 @@
+export default {
+    blueShade: '#507CE2',
+    lightBlueShade: '#42A5F5',
+    purpleShade: '#8C6AEB',
+    middleShade: '#6D73E6',
+    lightGrey: '#ECEFF1',
+    darkGrey: '#263238',
+    darkPurple: '#4527A0',
+    linkColor: '#2980b9',
+    transparentWhite: 'rgba(255,255,255,0.5)',
+    translucentWhite: 'rgba(255,255,255,0.2)',
+    transparentBlack: 'rgba(0,0,0,0.72)',
+    googleGrey: 'rgb(106, 107, 111)',
+    footerGrey: 'rgb(233, 234, 234)',
+}
