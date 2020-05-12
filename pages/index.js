@@ -4,8 +4,6 @@ import Head from 'next/head'
 import Colors from '../constants/colors';
 import styled from 'styled-components';
 import Layout from './components/layout'
-// import Lottie from 'react-lottie'
-import animation from '../assets/animations/globe.json'
 
 import earthImg from '../assets/images/dot.png'
 import { createStore } from 'redux'
@@ -60,7 +58,7 @@ export default class index extends React.Component {
                                 <Quote>
                                     <Paragraphs>
                                         <p>
-                                            <FirstPara>“We succeeded in taking that picture, and, if you look at it, you see a dot.</FirstPara>
+                                            {/* <FirstPara>“We succeeded in taking that picture, and, if you look at it, you see a dot.</FirstPara> */}
                                      Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there-on a mote of dust suspended in a sunbeam.
                                     {(!this.state.showMore) ? <Toggle onClick={this.readMore}>more</Toggle> : undefined}
                                         </p>
@@ -98,7 +96,7 @@ export default class index extends React.Component {
                             <RightPart>
 
                                 <ImageContainer>
-                                    <EarthImage src={earthImg} alt='The Dot' id='Planet Earth' />
+                                    <EarthImage src={earthImg} alt='Planet Earth via Voyager 1 at roughly 4 billion miles away from home.' />
                                     <ImageDescription>
                                         <DescTitle>Date: 14 February 1990</DescTitle>
                                         <Desc>Taken by Voyager 1 at roughly 4 billion miles (6.4 billion km) away from home.</Desc>
@@ -178,8 +176,10 @@ justify-content: center;
 `
 const RightPart = styled.div`
 display: flex;
-width: 50%;
-justify-content: center;
+width: 40%;
+flex-direction: column;
+align-items: center;
+margin-top: 164px;
 
 
 @media(max-width: 900px){
@@ -249,9 +249,6 @@ position: absolute;
 const ImageContainer = styled.div`
     height: 500px;
     width: 500px;
-    margin-top: 164px;
-    margin-left: 64px;
-    margin-right: 64px;
     position: relative;
     border-radius: 4px;
     overflow: hidden;
@@ -264,7 +261,6 @@ const ImageContainer = styled.div`
     @media(max-width: 900px){
         height: 400px;
         width: 400px;
-        margin: 0px;
     }
             
     @media(max-width: 1200px){

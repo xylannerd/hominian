@@ -82,7 +82,7 @@ const Layout = (props) => {
 export default Layout;
 
 const Childrens = styled.div`
-    min-height: 85vh;
+    min-height: 84vh;
 `
 
 const NavBar = styled.div`
@@ -90,7 +90,7 @@ const NavBar = styled.div`
     align-items: flex-end;
     justify-content: space-between;
     width: 100%;
-    height: 7vh;
+    height: 8vh;
     background-color: white;
     box-shadow: 0px 0px 0px 0px black;
 `
@@ -100,9 +100,11 @@ const Logo = styled.div`
     color: grey;
     font-family: sans-serif;
     text-transform: uppercase;
+    transition: color 1s;
 
     &:hover{
         cursor: pointer;
+        color: darkgray;
     }
 
 
@@ -145,7 +147,7 @@ const Link1 = styled.a`
 
     &:hover{
         cursor: pointer;
-        border-color: grey;
+        border-color: darkgrey;
         color: ${Colors.transparentBlack};
     }
 
@@ -164,7 +166,7 @@ const Link2 = styled.a`
 
     &:hover{
     cursor: pointer;
-    border: 1px solid grey;
+    border: 1px solid darkgrey;
     color: ${Colors.transparentBlack};
 }
 

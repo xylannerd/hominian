@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var HOME = 'HOME';\nexport var PRODUCTS = 'PRODUCTS';\nexport var BLOG = 'BLOG';","map":null,"metadata":{},"sourceType":"module"}
