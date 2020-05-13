@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "framer-motion": "^1.10.3",
     "next": "^9.3.5",
     "next-images": "^1.4.0",
     "react": "^16.13.1",
@@ -11,7 +12,6 @@
     "react-lottie": "^1.2.3",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
-    "slick-carousel": "^1.8.1",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {},

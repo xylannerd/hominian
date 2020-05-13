@@ -96,7 +96,7 @@ const NavBar = styled.div`
 `
 const Logo = styled.div`
     font-size: 32px;
-    padding-left: 42px;
+    margin-left: 42px;
     color: grey;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -113,8 +113,7 @@ const Logo = styled.div`
      -khtml-user-select: none; /* Konqueror HTML */
        -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Opera and Firefox */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 
 `
 const PageLinks = styled.div`
