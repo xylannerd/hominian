@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2125,16 +2125,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils_center__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/center */ "./utils/center.js");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
-/* harmony import */ var _constants_colors__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../constants/colors */ "./constants/colors.js");
-/* harmony import */ var _assets_findME_fnme_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/findME/fnme.png */ "./assets/findME/fnme.png");
-/* harmony import */ var _assets_findME_frag_1_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/findME/frag_1.webp */ "./assets/findME/frag_1.webp");
-/* harmony import */ var _assets_findME_frag_2_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/findME/frag_2.webp */ "./assets/findME/frag_2.webp");
-/* harmony import */ var _assets_findME_frag_3_webp__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/findME/frag_3.webp */ "./assets/findME/frag_3.webp");
-/* harmony import */ var _assets_findME_google_play_badge_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/findME/google-play-badge.png */ "./assets/findME/google-play-badge.png");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _utils_center__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/center */ "./utils/center.js");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
+/* harmony import */ var _constants_colors__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../constants/colors */ "./constants/colors.js");
+/* harmony import */ var _assets_findME_fnme_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/findME/fnme.png */ "./assets/findME/fnme.png");
+/* harmony import */ var _assets_findME_frag_1_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/findME/frag_1.webp */ "./assets/findME/frag_1.webp");
+/* harmony import */ var _assets_findME_frag_2_webp__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/findME/frag_2.webp */ "./assets/findME/frag_2.webp");
+/* harmony import */ var _assets_findME_frag_3_webp__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/findME/frag_3.webp */ "./assets/findME/frag_3.webp");
+/* harmony import */ var _assets_findME_google_play_badge_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/findME/google-play-badge.png */ "./assets/findME/google-play-badge.png");
 var _jsxFileName = "D:\\Desktop\\X\\Websites\\hominian-web\\pages\\products.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2148,27 +2150,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 class Products extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 7
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 9
       }
     }, __jsx("title", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 23,
         columnNumber: 11
       }
     }, "Products"), __jsx("link", {
@@ -2177,95 +2180,95 @@ class Products extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 11
       }
     })), __jsx(MainContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 27,
         columnNumber: 9
       }
     }, __jsx(FindMeWrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 28,
         columnNumber: 13
       }
     }, __jsx(FindMeHeader, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 29,
         columnNumber: 15
       }
     }, __jsx(FindMeLogo, {
-      src: _assets_findME_fnme_png__WEBPACK_IMPORTED_MODULE_6__["default"],
+      src: _assets_findME_fnme_png__WEBPACK_IMPORTED_MODULE_7__["default"],
       alt: "FindMe Logo",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 17
       }
     })), __jsx(FindMeBody, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 33,
         columnNumber: 15
       }
     }, __jsx(LeftPart, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 34,
         columnNumber: 17
       }
     }, __jsx(MainImage, {
-      src: _assets_findME_frag_1_webp__WEBPACK_IMPORTED_MODULE_7__["default"],
+      src: _assets_findME_frag_1_webp__WEBPACK_IMPORTED_MODULE_8__["default"],
       alt: "Abductions Lost Missing Runaway Child Sad",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 35,
         columnNumber: 19
       }
     })), __jsx(RightPart, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 40,
         columnNumber: 17
       }
     }, __jsx(ParaWrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 41,
         columnNumber: 19
       }
     }, __jsx(Para1, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 42,
         columnNumber: 21
       }
     }, "When you believe a person in your life has disappeared, it can leave you feeling really awful and helpless. And it becomes really important that you do everything you can in order to get that person back safe and sound."), __jsx(Para2, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46,
+        lineNumber: 48,
         columnNumber: 21
       }
     }, "It's a community app you can use to help or query about Lost or Missing individuals.")), __jsx(GooglePlayButtonContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 54,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -2274,74 +2277,93 @@ class Products extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
+        lineNumber: 55,
         columnNumber: 21
       }
     }, __jsx(GooglePlayButton, {
-      src: _assets_findME_google_play_badge_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+      src: _assets_findME_google_play_badge_png__WEBPACK_IMPORTED_MODULE_11__["default"],
       alt: "Get it on Google Playstore",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 59,
         columnNumber: 23
       }
-    }))))))));
+    })), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/privacyPolicy",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 21
+      }
+    }, __jsx(PrivacyPolicy, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 23
+      }
+    }, "privacy policy"))))))));
   }
 
 }
-const MainContainer = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const MainContainer = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__MainContainer",
   componentId: "sc-1u02hxt-0"
 })(["display:flex;justify-content:center;margin-top:128px;"]);
-const FindMeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const FindMeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__FindMeWrapper",
   componentId: "sc-1u02hxt-1"
-})(["display:flex;width:1200px;flex-direction:column;margin-left:64px;margin-right:64px;margin-bottom:128px;border-radius:8px;overflow:hidden;box-shadow:1px 1px 1em 1px ", ";transition:box-shadow 1s;&:hover{box-shadow:1px 1px 1em 1px ", ";}@media (max-width:700px){width:95%;margin-left:0px;margin-right:0px;margin-bottom:128px;padding-bottom:16px;}"], _constants_colors__WEBPACK_IMPORTED_MODULE_5__["default"].fmBlueExtraTransparent, _constants_colors__WEBPACK_IMPORTED_MODULE_5__["default"].fmBlueTransparent);
-const FindMeHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+})(["display:flex;width:1200px;flex-direction:column;margin-left:64px;margin-right:64px;margin-bottom:128px;border-radius:8px;overflow:hidden;box-shadow:1px 1px 1em 1px ", ";transition:box-shadow 1s;&:hover{box-shadow:1px 1px 1em 1px ", ";}@media (max-width:700px){width:95%;margin-left:0px;margin-right:0px;margin-bottom:128px;padding-bottom:16px;}"], _constants_colors__WEBPACK_IMPORTED_MODULE_6__["default"].fmBlueExtraTransparent, _constants_colors__WEBPACK_IMPORTED_MODULE_6__["default"].fmBlueTransparent);
+const FindMeHeader = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__FindMeHeader",
   componentId: "sc-1u02hxt-2"
 })(["display:flex;flex-direction:row;align-items:center;"]);
-const FindMeLogo = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.img.withConfig({
+const FindMeLogo = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.img.withConfig({
   displayName: "products__FindMeLogo",
   componentId: "sc-1u02hxt-3"
 })(["width:100px;margin-left:32px;margin-top:16px;margin-bottom:12px;object-fit:contain;"]);
-const FindMeBody = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const FindMeBody = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__FindMeBody",
   componentId: "sc-1u02hxt-4"
 })(["display:flex;flex-direction:row;@media (max-width:700px){flex-direction:column;align-items:center;}"]);
-const LeftPart = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const LeftPart = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__LeftPart",
   componentId: "sc-1u02hxt-5"
 })(["display:flex;width:30%;justify-content:center;@media (max-width:700px){width:80%;}"]);
-const RightPart = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const RightPart = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__RightPart",
   componentId: "sc-1u02hxt-6"
 })(["display:flex;flex-direction:column;width:70%;justify-content:space-around;padding-bottom:16px;padding-left:32px;padding-right:64px;margin-top:64px;@media (max-width:700px){width:80%;padding:0;margin-top:0px;}"]);
-const MainImage = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.img.withConfig({
+const MainImage = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.img.withConfig({
   displayName: "products__MainImage",
   componentId: "sc-1u02hxt-7"
 })(["width:82%;object-fit:contain;@media (max-width:700px){width:64%;}"]);
-const ParaWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const ParaWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__ParaWrapper",
   componentId: "sc-1u02hxt-8"
 })(["line-height:1.275;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;"]);
-const Para1 = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.p.withConfig({
+const Para1 = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.p.withConfig({
   displayName: "products__Para1",
   componentId: "sc-1u02hxt-9"
 })(["color:grey;"]);
-const Para2 = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.p.withConfig({
+const Para2 = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.p.withConfig({
   displayName: "products__Para2",
   componentId: "sc-1u02hxt-10"
 })(["color:grey;"]);
-const GooglePlayButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+const GooglePlayButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
   displayName: "products__GooglePlayButtonContainer",
   componentId: "sc-1u02hxt-11"
-})(["width:100%;display:flex;flex-direction:row;justify-content:flex-start;@media (max-width:700px){margin-top:16px;}"]);
-const GooglePlayButton = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.img.withConfig({
+})(["width:100%;display:flex;flex-direction:row;justify-content:space-between;@media (max-width:700px){margin-top:16px;}"]);
+const GooglePlayButton = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.img.withConfig({
   displayName: "products__GooglePlayButton",
   componentId: "sc-1u02hxt-12"
 })(["width:160px;margin-left:-8px;&:hover{cursor:pointer;}"]);
+const PrivacyPolicy = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.a.withConfig({
+  displayName: "products__PrivacyPolicy",
+  componentId: "sc-1u02hxt-13"
+})(["align-self:center;color:lightgray;&:hover{cursor:pointer;text-decoration:underline;color:lightskyblue;}"]);
 
 /***/ }),
 
@@ -2397,7 +2419,7 @@ const CenterContent = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.d
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/products.js ***!
   \*********************************/

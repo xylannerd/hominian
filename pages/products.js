@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
+
 import styled from 'styled-components'
 import Center from '../utils/center'
 import Layout from './components/layout'
@@ -59,7 +61,14 @@ export default class Products extends Component {
                         alt="Get it on Google Playstore"
                       />
                     </a>
+
+                    <Link href="/privacyPolicy">
+                      <PrivacyPolicy>
+                        privacy policy
+                      </PrivacyPolicy>
+                    </Link>
                   </GooglePlayButtonContainer>
+
                 </RightPart>
               </FindMeBody>
             </FindMeWrapper>
@@ -188,7 +197,7 @@ const GooglePlayButtonContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   /* background-color: lightpink; */
 
   @media (max-width: 700px) {
@@ -201,5 +210,15 @@ const GooglePlayButton = styled.img`
 
   &:hover {
     cursor: pointer;
+  }
+`
+const PrivacyPolicy = styled.a`
+  align-self: center;
+  color: lightgray;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: lightskyblue;
   }
 `

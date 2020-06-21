@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
 import styled from 'styled-components'
 import Head from 'next/head'
 import Center from '../utils/center'
 import Layout from './components/layout'
-import Lottie from 'react-lottie'
 import animation from '../assets/animations/bear.gif'
 
 
