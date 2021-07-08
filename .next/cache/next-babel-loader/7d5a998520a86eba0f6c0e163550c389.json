@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var ACTIVE_PAGE = 'ACTIVE_PAGE';","map":{"version":3,"sources":["D:/Desktop/X/Websites/hominian-web/store/actions.js"],"names":["ACTIVE_PAGE"],"mappings":"AAAA,OAAO,IAAMA,WAAW,GAAG,aAApB","sourcesContent":["export const ACTIVE_PAGE = 'ACTIVE_PAGE';"]},"metadata":{},"sourceType":"module"}
