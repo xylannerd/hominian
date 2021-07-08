@@ -1,3 +1,3 @@
 # hominian
 
-main website.
+A simple website built using Next.js
