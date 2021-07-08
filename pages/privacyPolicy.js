@@ -157,6 +157,14 @@ const Wrapper = styled.div`
     box-shadow: 1px 1px 1em 1px ${Colors.fmBlueTransparent};
   }
 
+
+  @media (max-width: 700px) {
+    width: 95%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 128px;
+    padding-bottom: 16px;
+  }
   
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
